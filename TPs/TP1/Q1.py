@@ -6,3 +6,4 @@ tagged_tokens = nltk.pos_tag(tokens)
 with open('wsj_0010_sample.txt.pos.nltk', 'w') as f:
     for token in tagged_tokens:
         f.write(token[0] + '\t' + token[1] + '\n')
+        print(token[0] + '\t' + token[1] + '\n')
