@@ -25,6 +25,6 @@ for ptb, univ in correspondance.items():
 correspondance['('] = '.'
 correspondance[')'] = '.'
 # Écriture du contenu modifié dans les fichiers de sortie
-with open("wsj_0010_sample.txt.pos.nltk.univ", "w") as f_nltk, open("wsj_0010_sample.txt.pos.ref.univ", "w") as f_ref:
+with open("wsj_0010_sample.txt.pos.univ.nltk", "w") as f_nltk, open("wsj_0010_sample.txt.pos.univ.ref", "w") as f_ref:
     f_nltk.write(contenu_nltk)
     f_ref.write(contenu_ref)
