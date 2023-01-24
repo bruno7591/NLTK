@@ -1,3 +1,8 @@
+#Evaluation à l’aide des étiquettes Penn TreeBank (PTB) :
+#Utiliser le programme Python « evaluate.py » pour évaluer l’analyseur morpho-syntaxique de la plateforme NLTK. L’évaluation se fait en utilisant le fichier contenant l’annotation de référence wsj_0010_sample.pos.ref
+#python evaluate.py wsj_0010_sample.txt.pos.nltk 
+#wsj_0010_sample.pos.ref
+
 import nltk
 
 with open('wsj_0010_sample.txt.pos.nltk','r') as nltkText :

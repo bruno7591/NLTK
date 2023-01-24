@@ -1,3 +1,8 @@
+#Ecrire un programme Python utilisant le package pos_tag
+#pour désambiguïser morpho- syntaxiquement le texte du 
+#fichier wsj_0010_sample.txt. Le résultat de ce module 
+#sera mis dans le fichier wsj_0010_sample.txt.pos.nltk.
+
 import nltk
 with open('wsj_0010_sample.txt', 'r') as f:
     text = f.read()
