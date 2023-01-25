@@ -9,11 +9,11 @@ powwow	NOUN
 ,	.
 the	DET
 nation	NOUN
-manufacturing	NOUN
+manufacturing	VERB
 titans	NOUN
 typically	ADV
 jet	VERB
-off	ADP
+off	PRT
 to	PRT
 the	DET
 sunny	ADJ
@@ -46,7 +46,7 @@ of	ADP
 Indianapolis	NOUN
 for	ADP
 its	PRON
-fall	ADJ
+fall	NOUN
 board	NOUN
 meeting	NOUN
 .	.
@@ -58,7 +58,7 @@ to	PRT
 treat	VERB
 its	PRON
 guests	NOUN
-more	ADV
+more	ADJ
 like	ADP
 royalty	NOUN
 or	CONJ
