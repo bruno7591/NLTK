@@ -1,9 +1,9 @@
 # **Extraction d'entités nommées avec NLTK**
 
-Le code importe les bibliothèques NLTK (Natural Language Toolkit) et utilise les fonctions word_tokenize pour diviser le texte en mots, pos_tag pour tagger chaque mot avec un marqueur de partie de discours et ne_chunk pour extraire les entités nommées.
+## **Partie 1 - Extraction des entités nommées**
 
-Il ouvre ensuite un fichier texte nommé "wsj_0010_sample.txt" et le lit, puis utilise les fonctions précédemment importées pour tokeniser les mots, les tagger avec des marqueurs de partie de discours et extraire les entités nommées.
+On refait la même chose que pour la partie précédente avec l'extraction des mots-composés mais cette fois pour les entités nommées.
 
-Les entités nommées sont ensuite écrites dans un fichier nommé "wsj_0010_sample.txt.ne.nltk".
+## **Partie 2 - On convertit les labels**
 
-Il y a un deuxième code qui est similaire mais il ajoute une étape de remplacement des labels de l'entité nommée en utilisant un dictionnaire my_dict. Il écrit le résultat dans un fichier nommé "wsj_0010_sample2.txt.ne.nltk"
+Comme pour la partie de l'analyse morpho-syntaxique, on va faire correspondre les tags par défaut obtenus par NLTK avec une liste de tags prédéfinis. Une fois cela implémenté, on écrit le nouveau résultat dans un fichier.
