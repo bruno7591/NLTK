@@ -21,7 +21,7 @@ chunk_grammar = "Compound: {<DT>?<JJ>*<NN>}"
 
 chunk_parser = RegexpParser(chunk_grammar)
 chunked_words = chunk_parser.parse(tagged_words)
-print(type(chunked_words))
+#print(type(chunked_words))
 
 # Écrire les mots composés dans un fichier
 with open("../../data/wsj_0010_sample.txt.chk.nltk", "w") as f:
